@@ -9,19 +9,42 @@
 </head>
 
 <body>
-    <div>
-        <div class="">
-            <div></div>
-            <div></div>
+    <div class="flex justify-center items-center h-screen bg-Primary-Cream">
+        <div class="flex w-1/2 bg-Neutral-White rounded-xl">
+            <div class="grid grid-row-2 md:grid-cols-2">
+                <div class="flex justify-end">
+                    <picture class="w-full h-full">
+                        <source media="(min-width: 768px)" srcset="/images/image-product-desktop.jpg">
+                        <img class="w-full h-full object-cover rounded-l-xl" src="/images/image-product-mobile.jpg"
+                            alt="Gabrielle Essence Eau De Parfum">
+                    </picture>
+                </div>
+                <div class="flex flex-col p-10 gap-8">
+                    <h1
+                        class="text-md font-semibold font-Montserrat uppercase tracking-[.35em] text-Neutral-Dark-Grayish-Blue">
+                        Perfume
+                    </h1>
+                    <h2 class="text-4xl font-bold font-Fraunces text-Neutral-Very-Dark-Blue">Gabrielle Essence Eau De
+                        Parfum</h2>
+                    <p class="font-Montserrat font-medium text-Neutral-Dark-Grayish-Blue">A floral, solar and
+                        voluptuous
+                        interpretation composed by Olivier Polge,
+                        Perfumer-Creator for the
+                        House of CHANEL.</p>
+                    <div class="flex items-center gap-4">
+                        <p class="text-4xl font-Fraunces font-bold text-Primary-Dark-Cyan">$149.99</p>
+                        <p class="font-Montserrat line-through text-Neutral-Dark-Grayish-Blue">$169.99</p>
+                    </div>
+
+                    <div class="flex items-center justify-center gap-2 bg-Primary-Dark-Cyan rounded-md p-4">
+                        <img src="/images/icon-cart.svg" alt="cart">
+                        <p class="font-Montserrat text-sm font-bold text-Neutral-White">Add to Cart</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <h1>Perfume</h1>
-    <h2>Gabrielle Essence Eau De Parfum</h2>
-    <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of
-        CHANEL.</p>
-    <p>$149.99</p>
-    <p>$169.99</p>
-    <button>Add to Cart</button>
+
 </body>
 
 </html>
